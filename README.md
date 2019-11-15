@@ -7,7 +7,7 @@
 		S3, EC2, VPC, Route53, Autoscaling, etc..
 ### 3. Install KOPS on EC2
 ```sh
-yum install wget
+sudo yum install wget
 wget https://github.com/kubernetes/kops/releases/download/1.10.0/kops-linux-amd64
 chmod +x kops-linux-amd64
 sudo mv kops-linux-amd64 /usr/local/bin/kops
