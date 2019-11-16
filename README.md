@@ -101,4 +101,14 @@ To check all the nodes and pods in the cluster.
 kubectl get nodes
 
 kubectl get pods
+
+kubectl get services
+
+kubectl get pods -o wide 
+(This is gives two additional parameters pod ip and name)
+
+kubectl get namespaces
+
+kubectl get deployments
+
 ```
