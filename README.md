@@ -93,3 +93,12 @@ ssh admin@api.nag.k8s
 ```sh
 kops delete cluster  --yes
 ```
+
+### Some useful kubectl commands
+To check all the nodes and pods in the cluster.
+
+```sh
+kubectl get nodes
+
+kubectl get pods
+```
