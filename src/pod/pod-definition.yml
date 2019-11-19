@@ -4,6 +4,7 @@ metadata:
   name: postgres
   labels:
     tier: db-tier
+    type: back-end
 spec:
   containers:
     - name: postgres
